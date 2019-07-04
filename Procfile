@@ -1,1 +1,1 @@
-web: gunicorn djangorest.wsgi
+web: gunicorn djangorest.djangorest.wsgi
