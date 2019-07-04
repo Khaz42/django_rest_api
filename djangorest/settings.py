@@ -26,7 +26,7 @@ SECRET_KEY = 'y29fvkunxk9ztfe7e&bf*p^v7m3)*m+supqm@d#rbus_$r3go0'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['djangorestapp.herokuapp.com']
+ALLOWED_HOSTS = ['djangorestapp.herokuapp.com', 'localhost']
 
 
 # Application definition
@@ -129,7 +129,7 @@ STATICFILES_DIRS = (
 )
 
 #  Add configuration for static files storage using whitenoise
-STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 # Django Rest Framework settings
 REST_FRAMEWORK = {
