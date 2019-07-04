@@ -26,7 +26,8 @@ SECRET_KEY = 'y29fvkunxk9ztfe7e&bf*p^v7m3)*m+supqm@d#rbus_$r3go0'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['djangorestapp.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['djangorestapp.herokuapp.com']
+# ALLOWED_HOSTS = ['localhost']
 
 
 # Application definition
